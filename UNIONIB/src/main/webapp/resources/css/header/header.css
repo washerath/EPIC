@@ -1,0 +1,125 @@
+/* 
+    Document   : header
+    Created on : Mar 18, 2016, 9:34:26 AM
+    Author     : Saminda Peramuna <saminda_p@epiclanka.net>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+@media (max-width: 767px){
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: #FFFFFF !important;}
+    .dropdown-menu{
+        background-color: #FFF !important;
+    }
+}
+
+.dropdown-menu {
+    min-width: 200px;
+}
+
+.dropdown-menu.columns-2 {
+    min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+    min-width: 600px;
+}
+
+.dropdown-menu li a {
+    padding: 5px 15px;
+    font-weight: 300;
+}
+
+.multi-column-dropdown {
+    list-style: none;
+}
+.multi-column-dropdown li a {
+    display: block;
+    clear: both;
+    line-height: 1.428571429;
+    color: #333;
+    white-space: normal;
+    position:relative !important;
+}
+
+.multi-column-dropdown li a:hover {
+    text-decoration: none;
+    color: #262626;
+    background-color: #f5f5f5;
+    position:relative !important;
+}
+
+@media (min-width: 767px) {
+    .dropdown-menu.multi-column {
+        min-width: 240px !important;
+        overflow-x: hidden;
+    }
+
+}
+
+@media (max-width: 299px) {
+    .liclass{
+        margin-top: -14% ;
+        margin-right:4%; 
+        padding-left:20px; 
+
+    }
+
+    .prof{
+        margin-left: 30% ;
+
+    }
+}
+
+@media (min-width: 300px) and (max-width:767px){
+    .liclass{
+        margin-top: -42px ;
+        margin-right:4%; 
+        padding-left:20px; 
+
+    }
+
+    .prof{
+        margin-left: 65% ;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .prof{ margin-left: 75%;
+    }
+}           
+
+/*@media (min-width: 800px) and (max-width:1199){
+                .prof{ margin-left: 77% !important;
+                       float:right!important; 
+                }*/
+
+@media (min-width: 1200px){
+    .prof{ 
+        margin-left: 85%;   
+        margin-top: 0%;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        width: 90%;
+        margin: 50px auto;
+        padding: 10px;
+    }
+    
+    .col-md-8{
+        width: 99%;
+    }
+}
+
+.menu-sub-title {
+    color: navy;
+    font-size: 14px;
+    font-weight: bold;
+}

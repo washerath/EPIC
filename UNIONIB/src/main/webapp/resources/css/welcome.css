@@ -1,0 +1,165 @@
+/* 
+    Document   : index.css
+    Created on : Oct 8, 2015, 12:05:13 PM
+    Author     : shalika_w
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@CHARSET "UTF-8";
+
+root { 
+    display: block;
+}
+
+html{
+    font-family: "Open Sans Light";
+    font-weight: 200 !important;
+    font-size: 12px;
+}
+.progress-bar {
+    color: #333;
+}
+.component {
+    background: #ECF0F1 none repeat scroll 0% 0%;
+    background-color: #ECF0F1;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.login-form {
+    background: #3D6BB1  none repeat scroll 0% 0%;
+    background-color: #FCFEFF ;
+    background-clip: border-box;
+    background-origin: padding-box;
+    padding-bottom:  5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 900px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-color: lightyellow;*/
+}
+#header-1{
+    color: #017ebc;
+}
+
+.form-links {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+
+h3,h1{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer h5 {
+    color: darkblue;
+    line-height: 2em;
+}
+
+h5{
+    font-size: 0.85em;
+    line-height: 1.25em;
+    color: #404040;
+    font-weight: normal;
+    margin: 0px;
+}
+footer {
+    color: lightgray;
+    text-align: center;
+}
+.div-footer{
+    color: black;
+}
+.clear {
+    clear: both;
+    float: none !important;
+}
+
+a {
+    color: #404040;
+    text-decoration: none;
+}
+/*slide show css */
+
+.login-form{
+    margin-top: 20px;
+}
+#content{
+    margin-top: 10px;
+    max-width: 320px;
+}
+
+.slides ul{
+    width: 320px;
+    height: 320px;
+}
+/*css for mobile device , tablet ,medium screen , large screen*/
+
+.row > div{
+    margin-bottom: 15px;
+}
+
+.footer{
+    min-height: 60px;
+}
+.sidebar, .content{
+    min-height: 300px;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slide-img{
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.tile-image{
+    margin: auto;
+}
+.tile-table{
+    margin-top:  25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+}
+.header-image{
+    width: 510px;
+    height: 80px;
+}
+.header-image-2{
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
